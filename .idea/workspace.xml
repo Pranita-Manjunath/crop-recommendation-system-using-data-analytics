@@ -1,7 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f07402fa-bb28-450a-9894-9e8d8e947703" name="Default Changelist" comment="" />
+    <list default="true" id="f07402fa-bb28-450a-9894-9e8d8e947703" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/Click-7.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/Click-7.0.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/Click-7.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/Click-7.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/Click-7.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/Click-7.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/blinker-1.4-py3.8.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/blinker-1.4-py3.8.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/blinker-1.4-py3.8.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/blinker-1.4-py3.8.egg-info/installed-files.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/blinker-1.4-py3.8.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/blinker/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/blinker/_saferef.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/blinker/_utilities.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/blinker/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/click/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/click/_bashcomplete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/click/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/click/_termui_impl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/click/_textwrap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/click/_unicodefun.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/click/_winconsole.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/click/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/click/decorators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/click/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/click/formatting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/click/globals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/click/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/click/termui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/click/testing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/click/types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/click/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/_common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/_version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/easter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/parser/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/parser/_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/parser/isoparser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/relativedelta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/rrule.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/tz/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/tz/_common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/tz/_factories.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/tz/tz.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/tz/win.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/tzwin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/zoneinfo/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Lib/site-packages/dateutil/zoneinfo/rebuild.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/Activate.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/activate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/deactivate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/easy_install-3.8-script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/easy_install-3.8.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/easy_install-3.8.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/easy_install-script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/easy_install.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/easy_install.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/f2py.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/flask.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/pip-script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/pip.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/pip.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/pip3-script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/pip3.8-script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/pip3.8.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/pip3.8.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/pip3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/pip3.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/python.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/python_d.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/pythonw.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/Scripts/pythonw_d.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vnev/pyvenv.cfg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,14 +94,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WiDt2L2rXq2JP4yUoYbDmOvaoF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -86,18 +168,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
