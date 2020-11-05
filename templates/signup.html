@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/main.css">
+    <title>Title</title>
+     <style>
+        .sign{
+            background-color:lightgreen;
+            margin:150px 250px 650px 430px;
+            border:5px solid #458B00;;
+            padding:15px;
+            box-shadow:15px 15px 10px darkgreen;
+            position:absolute;
+            }
+        input[type]{
+            border:2px solid green;
+            }
+            #menu{font-size:20px;font-weight:bold;}
+    </style>
+</head>
+<body style="background:url('static/bgimg.jpg')">
+<script src="static/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+<nav class="navbar navbar-expand-md fixed-top">
+			<a class="navbar-brand" href="#"><img src="static/logo.jpg" alt="Bootstrappin" width="120"></a>
+		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div id="intro" class = "view">
+			<div class="full-bg-img" style="font-size:32px;text-shadow:3px 3px maroon;color:white;font-weight:bold">
+		&nbsp;&nbsp;CROP RECOMMENDATION SYSTEM
+			</div>
+		</div>
+ 
+		<div class="collapse navbar-collapse" id="main-navigation">
+		<ul class="navbar-nav">
+		<li class="nav-item">
+			<a class="nav-link" href="/index2" id="menu">HOME</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="/about" id="menu">ABOUT</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="/signup" id ="menu">SIGN UP </a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="/signin" id="menu">SIGN IN </a>
+		</li>
+	  
+		</ul>
+		</div>
+		</nav>
+<br>
+<div class="sign">
+<!-- Default form register -->
+<form method="post" class="text-center border border-light p-5" action="/signup">
+
+    <h4 class="h4 mb-4" style="color:green"><b><u>SIGN UP</u></b></h4>
+
+    <div class="form-row mb-4">
+        <div class="col">
+            <!-- First name -->
+            <input type="text" name="fname" pattern="[a-zA-Z]*" id="defaultRegisterFormFirstName"
+                   class="form-control" placeholder="First name" required>
+        </div>
+        <div class="col">
+            <!-- Last name -->
+            <input type="text" name="lname"
+                   pattern="[A-Za-z]+([ '-][a-zA-Z]+)*" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+        </div>
+    </div>
+
+    <!-- E-mail -->
+    <input type="email" name="email" id="defaultRegisterFormEmail"
+           class="form-control mb-4" placeholder="E-mail" required>
+    <small id="defaultRegisterFormEmailHelpBlock" class="form-text text-muted mb-4">
+        Eg:-abc@example.com
+    </small>
+    <!-- Password -->
+    <input type="password" name="pass"
+           pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Atleast 1 digit and 1 uppercase and lowercase letter & atleast 8 characters" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock" required>
+    <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+        Atleast 1 digit and 1 uppercase and lowercase letter & atleast 8 characters
+    </small>
+
+    <!-- Phone number
+    <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock" required>-->
+    <input type="tel" name="phone" pattern="[0-9]{10}" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock" required>
+    <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+        10-digit phone number
+    </small>
+
+    <!-- Sign up button -->
+    <button class="btn btn-info my-4 btn-block" type="submit">SIGN UP</button>
+    <br>
+    <a href="/signin">Already have an Account ?</a>
+</form>
+</div>
+</body></html>

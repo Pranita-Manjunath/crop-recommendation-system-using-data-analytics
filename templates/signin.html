@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/main.css">
+    <title>Title</title>
+    <script src="static/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <style>
+        .sign{
+            background-color:lightgreen;
+            margin:150px 250px 650px 500px;
+            border:8px solid #458B00;
+            padding:25px;
+            width:400px;
+            box-shadow:20px 20px 10px darkgreen;
+			position:absolute;
+            }
+        #menu{font-size:20px;font-weight:bold;}
+    </style>
+</head>
+<body style="background:url('static/bgimg.jpg')">
+<nav class="navbar navbar-expand-md fixed-top">
+			<a class="navbar-brand" href="#"><img src="static/logo.jpg" alt="Bootstrappin" width="120"></a>
+		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div id="intro" class = "view">
+			<div class="full-bg-img" style="font-size:32px;text-shadow:3px 3px maroon;color:white;font-weight:bold">
+		&nbsp;&nbsp;CROP RECOMMENDATION SYSTEM
+			</div>
+		</div>
+ 
+		<div class="collapse navbar-collapse" id="main-navigation">
+		<ul class="navbar-nav">
+		<li class="nav-item">
+			<a class="nav-link" href="/index2" id = "menu">HOME</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="/about" id = "menu">ABOUT</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="/signup" id="menu">SIGN UP </a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="/signin" id ="menu">SIGN IN </a>
+		</li>
+	  
+		</ul>
+		</div>
+		</nav>
+<center>
+<br>
+<div class="sign rounded">
+	<h6>{{msg}}</h6>
+	<form method="post" action="/signin"><fieldset><legend><h3 style="color:darkgreen"><u>SIGN IN</u></h3></legend>
+  <div class="form-group">
+    <label for="exampleInputEmail1" style="color:darkgreen">Email address :</label>
+    <input type="email" name="username" class="form-control" title=" Eg:-abc@example.com" id="exampleInputEmail1" style="border:2px solid green;" aria-describedby="emailHelp" placeholder="Enter email" required>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1" style="color:darkgreen">Password :</label>
+    <input type="password" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title=" Atleast 1 digit and 1 uppercase and lowercase letter & atleast 8 characters" class="form-control" style="border:2px solid green;" id="exampleInputPassword1" placeholder="Password" required>
+  </div>
+  <div class="form-check">
+    <!--<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>-->
+  </div><br>
+  <button type="submit" class="btn btn-primary">Submit</button>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="/signup">Create new Account </a>
+	</fieldset>
+</form>
+</div></center>
+</body>
+</html>
